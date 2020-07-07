@@ -3,7 +3,7 @@ import ResponsiveEmbed from 'react-responsive-embed';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import HeroImage from '../assets/skills-pic.png';
+import HeroImage from '../assets/teaching-postmanaut.png';
 import AdminImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
@@ -12,7 +12,6 @@ import { SecondaryCard, LandingCard } from '../components/MarketingPages/Cards';
 import '../components/MarketingPages/Buttons.scss';
 
 import './index.scss';
-
 
 const HeroStyle = {
   paddingBottom: '0px',
@@ -40,7 +39,7 @@ const IndexPage = () => (
         <div className="col-lg-5 hero-text">
           <h2>Postman Learning Center</h2>
           <p>
-            Learn how to effectively use Postman in your API projects.
+            Learn how to use Postman effectively in your API projects. Check out the docs and support resources!
           </p>
           <a href="/docs/" className="btn btn__primary">Explore the docs</a>
         </div>
